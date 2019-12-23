@@ -1,0 +1,58 @@
+body {
+	background-color: #b5a789;
+}
+
+header, footer {
+	background-color: #675c47;
+}
+
+#headerSlogan {
+	float: right;
+}
+
+#award {
+	position: absolute;
+	top: 4%;
+	left: 43%;	
+}
+
+#coupon {
+	position: fixed;
+	top: 50%;
+	left: -5%;
+}
+
+#footer {
+	color: #d1c7b2;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#drinks, #main, #sidebar {
+	background-image: url(images/background.gif);
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#drinks, #sidebar {
+	width: 20%;
+}
+
+#main {
+	width: 50%;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#table {
+	display: table;
+	border-spacing: 10px;
+}
+
+#row {
+	display: table-row;
+}
